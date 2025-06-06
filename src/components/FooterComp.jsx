@@ -10,7 +10,7 @@ const FooterComp = () => {
   return (
     <>
       <footer className="">
-        <div className=" h-12 bg-blue-800 flex justify-between items-center px-5 text-white">
+        <div className=" h-12 bg-purple-700 flex justify-between items-center px-5 text-white">
           <div>
             <p className="">Get connected with us social networks:</p>
           </div>
@@ -23,7 +23,7 @@ const FooterComp = () => {
             <FaGithub />
           </div>
         </div>
-        <div className="  h-60 bg-blue-900 text-white flex gap-60 p-2">
+        <div className="  h-60 bg-purple-800 text-white flex gap-60 p-2">
           <div className="">
             <h1 className="mt-2">Company Name</h1>
             <br />
@@ -65,7 +65,7 @@ const FooterComp = () => {
             </ul>
           </div>
         </div>
-        <div className="  h-10 bg-blue-950 flex justify-center text-white">
+        <div className="  h-10 bg-purple-900 flex justify-center text-white">
           &copy;2025 Copyright: MDBootStrp
         </div>
       </footer>
